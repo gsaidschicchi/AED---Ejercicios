@@ -1,6 +1,6 @@
 # Enunciados  
 
-## ejercicio 1
+### ejercicio 1
 Desarrollar una función tal que dado un numero entero positivo, calcule y retorne su factorial.
 #### Análisis:
 La funcion factorial se define matematicamente como:
