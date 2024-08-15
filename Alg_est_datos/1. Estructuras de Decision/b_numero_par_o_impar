@@ -1,0 +1,28 @@
+// 2. Dado un número que se ingresa por teclado, informar si es par o impar.
+
+#include <iostream>
+
+// Prototipo de la función par_o_impar
+bool par_o_impar(int);
+
+int main() {
+    int numero;
+
+    std::cout << "Ingrese un valor: ";
+    std::cin >> numero;
+
+    // Llama a la función par_o_impar y verifica el resultado
+    if (par_o_impar(numero)) {
+        std::cout << numero << " es impar" << std::endl;
+    } else {
+        std::cout << numero << " es par" << std::endl;
+    }
+
+    return 0;
+}
+
+// Definición de la función par_o_impar
+bool par_o_impar(int a) {
+    // Retorna verdadero si el número es impar, falso si es par
+    return (a % 2 != 0);
+}
